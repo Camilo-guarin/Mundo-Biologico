@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <link
+
+  rel="stylesheet"
+
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+
+/>
+
+<style>
+
+    .swiper {
+
+  width: 600px;
+
+  height: 300px;
+
+}
+
+</style>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MUNDO BIOLOGICO</title> <!--aqui va el titulo-->
+
+<link rel="stylesheet" href="style.css">
+
+   <script src="https://kit.fontawesome.com/7e5b2d153f.js"
+
+   crossorigin="anonymous"></script> <!--aqui va el link de los iconos-->
+
+   <script defer src="index.js">
+
+   </script>
+
+</head>
+
+    <body>
+
+<!-- Slider main container -->
+
+<div class="swiper">
+
+    <!-- Additional required wrapper -->
+
+    <div class="swiper-wrapper">
+
+      <!-- Slides -->
+
+      <div class="swiper-slide">Slide 1</div>
+
+      <div class="swiper-slide">Slide 2</div>
+
+      <div class="swiper-slide">Slide 3</div>
+
+      ...
+
+    </div>
+
+    <!-- If we need pagination -->
+
+    <div class="swiper-pagination"></div>
+
+  
+
+    <!-- If we need navigation buttons -->
+
+    <div class="swiper-button-prev"></div>
+
+    <div class="swiper-button-next"></div>
+
+  
+
+    <!-- If we need scrollbar -->
+
+    <div class="swiper-scrollbar"></div>
+
+  </div>
+
+    <header class="header"> <!--aqui van las secciones-->
+
+     <Nav class="Nav">
+
+        <a href="#" class="logo Nav-link">Logo</a> 
+
+        <button class="nav-toggle" aria-label="abrir menu">
+
+            <i class="fas fa-bars"></i> <!--aqui va el menu hamburguesa-->
+
+        </button>
+
+        <ul class="nav-menu "> 
+
+            <li class="nav-menu-item">
+
+                <a href="#" class="nav-menu-link Nav-link">menu</a>
+
+            </li>
+
+            <li class="nav-menu-item">
+
+                <a href="#" class="nav-menu-link Nav-link">categoria</a>
+
+            </li>
+
+            <li class="nav-menu-item">
+
+                <a href="#" class="nav-menu-link Nav-link">contacto</a>
+
+            </li>
+
+            <li class="nav-menu-item">
+
+                <a href="#" class="nav-menu-link Nav-link .nav-menu-link_active" >ayuda</a>
+
+            </li>
+
+        </ul>  
+
+    </Nav>
+
+</header>
+
+<main>
+
+    
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script></script>
+
+const swiper = new Swiper('.swiper', {
+
+    // Optional parameters
+
+    direction: 'vertical',
+
+    loop: true,
+
+  
+
+    // If we need pagination
+
+    pagination: {
+
+      el: '.swiper-pagination',
+
+    },
+
+  
+
+    // Navigation arrows
+
+    navigation: {
+
+      nextEl: '.swiper-button-next',
+
+      prevEl: '.swiper-button-prev',
+
+    },
+
+  
+
+    // And if we need scrollbar
+
+    scrollbar: {
+
+      el: '.swiper-scrollbar',
+
+    },
+
+  });
+
+</body>
+
+</html>
